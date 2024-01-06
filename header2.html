@@ -1,0 +1,183 @@
+<html>
+
+<body>
+    <div class="logo">
+        <img src="./assets/logo.png" alt="" width="200px" height="70px" class="logo_img" />
+    </div>
+    <div>
+        <div class="header1">
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FA5252/storytelling.png"
+                alt="storytelling" />
+            <span style="color: #de3545;">UPDATES:</span>
+            <span>Immigo Welcomes Vaccinated Residents for Travel as of Oct 02, 2021... </span>&emsp;&emsp;
+            <span style="color: #de3545; ">READ MORE&nbsp;<i class="fa fa-chevron-right"></i></span>
+        </div>
+        <div class="header2">
+            <div class="nav">
+                <div>
+                    <div>
+                        <button class="menubar" id="menubar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+
+                    <ol id="myTopnav">
+                        <li class="nav-list home">
+                            <button class="nav-button" id="Home">HOME</button>
+                            <ol>
+                                <div class="subdiv">
+                                    <li><button class="nav-button" id="Home">Home Page 01</button></li>
+                                    <li><button class="nav-button">Home Page 02</button></li>
+                                    <li><button class="nav-button">Home Page 03</button></li>
+                                    <li><button class="nav-button">OnePage Home</button></li>
+                                    <li><button class="nav-button">RTL Home</button></li>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class="nav-list">
+                            <button class="nav-button" >ABOUT</button>
+                            <ol>
+                                <div class="subdiv">
+
+                                    <li><button class="nav-button" id="About">About Immigo</button></li>
+                                    <li><button class="nav-button">Our Team</button></li>
+                                    <li><button class="nav-button">FAQ'S</button></li>
+                                    <li><button class="nav-button">404</button></li>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class="nav-list">
+                            <button class="nav-button">COACHING</button>
+                            <ol>
+                                <div class="y1">
+                                    <div>
+                                        <li><button class="nav-button" id="Coaching">Coaching Overview</button></li>
+                                        <li><button class="nav-button">IELTS</button></li>
+                                        <li><button class="nav-button">POEFL</button></li>
+                                        <li><button class="nav-button">PTE</button></li>
+                                        <li><button class="nav-button">OTE</button></li>
+                                    </div>
+                                    <div>
+                                        <li><button class="nav-button">GRE</button></li>
+                                        <li><button class="nav-button">GMAT</button></li>
+                                        <li><button class="nav-button">SAT</button></li>
+                                        <li><button class="nav-button">INE</button></li>
+                                    </div>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class="nav-list">
+                            <button class="nav-button">VISA</button>
+                            <ol>
+
+                                <div class="subdiv">
+                                    <div class="y1">
+                                        <div>
+                                            <li><button class="nav-button" id="Visa">Visa Overview</button></li>
+                                            <li><button class="nav-button">Student Visa</button></li>
+                                            <li><button class="nav-button">Residence Visa</button></li>
+                                            <li><button class="nav-button">Business Visa</button></li>
+                                        </div>
+                                        <div>
+                                            <li><button class="nav-button">Tourist Visa</button></li>
+                                            <li><button class="nav-button">Conference Visa</button></li>
+                                            <li><button class="nav-button">Medical Visa</button></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class="nav-list">
+                            <button class="nav-button">COUNTRIES</button>
+                            <ol>
+                                <div class="subdiv">
+                                    <div class="y1">
+                                        <div>
+                                            <li><button class="nav-button" id="Countries">Countries Overview</button></li>
+                                            <li><button class="nav-button">United States</button></li>
+                                            <li><button class="nav-button">Australia</button></li>
+                                            <li><button class="nav-button">Canada</button></li>
+                                            <li><button class="nav-button">United Arab Emirates</button></li>
+                                        </div>
+                                        <div>
+                                            <li><button class="nav-button">United Kingdom</button></li>
+                                            <li><button class="nav-button">South Africa</button></li>
+                                            <li><button class="nav-button">India</button></li>
+                                            <li><button class="nav-button">The Bahams</button></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class="nav-list">
+                            <button class="nav-button">BLOG</button>
+                            <ol>
+                                <div class="subdiv">
+
+                                    <li><button class="nav-button" id="Blog">1 Column Sidebar</button></li>
+                                    <li><button class="nav-button">2 Columns</button></li>
+                                    <li><button class="nav-button">3 Columns</button></li>
+                                    <li><button class="nav-button">Single Post</button></li>
+                                </div>
+                            </ol>
+                        </li>
+                        <li class="nav-list">
+                            <button class="nav-button" id="Contact">CONTACT</button>
+                        </li>
+                    </ol>
+                </div>
+
+            </div>
+            <div class="enquires">
+                <div>
+                    <img src="./assets/profile_enquire.jpg" alt="" height=40 width=40 style="border-radius: 100%;" />
+                </div>
+                <div class="enquire-detail">
+                    <span class="enquire-detail-head">ENQUIRES</span><br />
+                    <span>+1 888 456 78 901</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript">
+    $(function () {
+        $("#main_part").load("home.html");
+        $("#Home").click(function () {
+            $("#main_part").load("home.html");
+        });
+        $("#Blog").click(function () {
+            $("#main_part").load("blog.html");
+        });
+        $("#Countries").click(function () {
+            $("#main_part").load("countries.html");
+        });
+        $("#About").click(function () {
+            $("#main_part").load("about.html");
+        });
+        $("#Visa").click(function () {
+            $("#main_part").load("visa.html");
+        });
+        $("#Contact").click(function () {
+            $("#main_part").load("contact.html");
+        });
+        $("#Coaching").click(function () {
+            $("#main_part").load("coaching.html");
+        });
+        $('#menubar').click(function () {
+            if ($("#myTopnav").css("display") == "none") {
+
+                $('#myTopnav').css({
+                    'display': 'flex',
+                });
+            }
+            else {
+                $('#myTopnav').css({
+                    'display': 'none',
+                });
+            }
+        });
+    });
+</script>
+
+</html>

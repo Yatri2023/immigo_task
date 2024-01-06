@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/navbar.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <link rel="stylesheet" href="./style/home.css" />
+    <link rel="stylesheet" href="./style/contact.css" />
+    <link rel="stylesheet" href="./style/countries.css" />
+    
+    <link rel="stylesheet" href="./style/visa.css" />
+    <link rel="stylesheet" href="./style/about.css" />
+    
+    <link rel="stylesheet" href="./style/blog.css" />
+    <link rel="stylesheet" href="./style/section4.css" />
+    <link rel="stylesheet" href="./style/section1.css" />
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header1.html");
+            $("#navbar").load("header2.html");
+            $("#footer").load("footer.html");
+
+        });
+        window.onload = function () {
+            document.getElementById("page_display").style.display = 'none';
+        };
+        
+    </script>
+    <title>immigo</title>
+</head>
+
+<body>
+    <script>
+        $('body').append('<div style="" id="loadingDiv"><div class="loader"></div><div class="loading_text"><span>IMMIGO</span></div></div>');
+        $(window).on('load', function () {
+            setTimeout(removeLoader, 1000); //wait for page load PLUS two seconds.
+        });
+        function removeLoader() {
+            $("#loadingDiv").fadeOut(500, function () {
+                // fadeOut complete. Remove the loading div
+                $("#loadingDiv").remove();
+                $("#page_display").show() //makes page more lightweight 
+            });
+        }
+    </script>
+    <div id="page_display">
+
+        <div class="header" id="header"></div>
+        <div class="navbar" id="navbar"></div>
+        <div id="main_part"></div>
+        <div class="footer" id="footer"></div>
+    </div>
+</body>
+
+</html>
