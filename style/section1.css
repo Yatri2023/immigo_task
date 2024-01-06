@@ -1,0 +1,146 @@
+.home-section1-info {
+    width: 80%;
+    padding: 10%;
+    text-align: center;
+}
+
+.home-section1-info .home-section1-info1 {
+    width: 100%;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.home-section1-info .home-section1-info1  span{
+    font-size: 50px;
+    display: block;
+    margin-top: 2%;
+}
+
+.home-section1-info .home-section1-info1  h2{
+    color: #de3545;
+    position: relative;
+    display: inline-block;
+}
+
+.home-section1-info .home-section1-info1  h2:after{
+    border-bottom: 1px solid #de3545;
+    bottom: -10px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    width: 70px;
+    left: 30%;
+}
+.swiper-container1 {
+    height: 70vh;
+}
+.card1{
+    text-align: left;
+    padding: 2%;
+}
+.card1-detail{
+    width: 100%;
+}
+.card1-detail button{
+    display: block;
+    position:absolute;
+    right:10px;
+    background-color: #de3545;
+    color: white;
+    border: none;
+    padding: 1%;
+}
+.card1_info{
+    display: block;
+    padding: 10%;
+}
+.card1_detail1{
+    display: block;
+    padding: 2%;
+    margin-top: 5%;
+}
+.card1_detail1 span{
+    color: grey;
+    font-size: large;
+    margin-top: 5%;
+}
+.card1_detail1 p{
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.card1_buttons button{
+    background-color: white;
+    color: #de3545;
+    border: none;
+    padding: 2%;
+    margin: 5%;
+}
+@media only screen and (max-width: 800px){
+    .home-section4-info1 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }.home-section1-info .home-section1-info1 {
+        width: 95%;
+        padding: 2%;
+    }
+    .home-section1-info .home-section1-info1 .grid2 span{
+        font-size: 40px;
+    }
+    .home-section1-info .home-section4-info1 .grid2 span{
+        font-size: 30px;
+    }
+    .home-section1-info .home-section1-info1 .gr{
+        margin-top: -10%;
+        margin-left: 1%;
+        background-color: white;
+        position: absolute;
+    }
+    .swiper-container1 {
+        height: 40vh;
+    }
+    .card1{
+        text-align: left;
+        padding: 2%;
+    }
+    .card1-detail{
+        width: 100%;
+    }
+    .card1-detail button{
+        display: block;
+        position:absolute;
+        right:10px;
+        background-color: #de3545;
+        font-size: small;
+        color: white;
+        border: none;
+        padding: 0%;
+    }
+    .card1_info{
+        display: block;
+        padding: 15%;
+    }
+    .card1_detail1{
+        display: block;
+        padding: 1%;
+        margin-top: 3%;
+    }
+    .card1_detail1 span{
+        color: grey;
+        font-size: medium;
+        margin-top: 2%;
+    }
+    .card1_detail1 p{
+        font-size: large;
+        font-weight: bold;
+        margin-top: 2%;
+    }
+    .card1_buttons button{
+        background-color: white;
+        color: #de3545;
+        font-size: small;
+        border: none;
+        padding: 0%;
+        margin: 1%;
+    }
+}

@@ -1,0 +1,81 @@
+.about-container {
+    height: 40vh;
+}
+
+.about-banner {
+    background-image: url("../assets/page-title.jpg");
+    width: 100%;
+    opacity: 1;
+    height: 100%;
+    color: white;
+    background-size: cover;
+    display: inline-block;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-banner_div {
+    -webkit-box-shadow: inset -11px 0px 270px 54px rgba(4, 5, 31, 1);
+    -moz-box-shadow: inset -11px 0px 270px 54px rgba(4, 5, 31, 1);
+    box-shadow: inset -11px 0px 270px 54px rgba(4, 5, 31, 1);
+    height: 40vh;
+}
+
+
+.about-banner1_div1 {
+    display: block;
+}
+
+.about-banner_div span {
+    font-size: 40px;
+}
+
+.about-banner_div p {
+    font-size: medium;
+    padding-top: 8%;
+}
+
+
+@media only screen and (max-width: 800px){
+    .about-container {
+        height: 40vh;
+    }
+    
+    .about-banner {
+        background-image: url("../assets/about-banner.png");
+        width: 100%;
+        opacity: 1;
+        height: 100%;
+        color: white;
+        background-size: cover;
+        display: inline-block;
+        font-weight: bold;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .about-banner_div {
+        -webkit-box-shadow: inset -11px 0px 270px 54px rgba(4, 5, 31, 1);
+        -moz-box-shadow: inset -11px 0px 270px 54px rgba(4, 5, 31, 1);
+        box-shadow: inset -11px 0px 270px 54px rgba(4, 5, 31, 1);
+        height: 40vh;
+    }
+    
+    
+    .about-banner1_div1 {
+        display: block;
+    }
+    
+    .about-banner_div span {
+        font-size: 30px;
+    }
+    
+    .about-banner_div p {
+        font-size: medium;
+        padding-top: 20%;
+    }
+    
+}

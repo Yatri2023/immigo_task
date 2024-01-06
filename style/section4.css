@@ -1,0 +1,146 @@
+.home-section4-info1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.home-section4-info1 .home-section4-info1-left {
+    width: 50%;
+    padding: 8%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 1px;
+    row-gap: 1px;
+}
+.home-section4-info1 .home-section4-info1-left .grid2 span{
+    font-size: 70px;
+    color: #de3545
+}
+.home-section4-info1 .home-section4-info1-left .gr{
+    margin-top: -10%;
+    margin-left: 1%;
+    background-color: white;
+    position: absolute;
+}
+
+.home-section4-info1 .home-section4-info1-right {
+    width: 50%;
+    padding: 8%;
+}
+.home-section4-info1 .home-section4-info1-right h2 {
+    color: #de3545;
+    position: relative;
+    display: inline-block;
+
+}
+
+.home-section4-info1 .home-section4-info1-right .contacts {
+    margin-top: 30px;
+
+}
+
+.home-section4-info1 .home-section4-info1-right .contacts span {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.home-section4-info1 .home-section4-info1-right .contacts1 {
+    margin-top: 30px;
+
+}
+
+.home-section4-info1 .home-section4-info1-right .contacts1 span {
+    font-size: medium;
+    color: gray;
+}
+.home-section4_information{
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+.home-section4-info1-right button{
+    padding: 2%;
+    margin: 2%;
+    background-color: white;
+    color: #de3545;
+    border: 1px solid #de3545;
+}
+.home-section4-info1-right-part{
+    padding-bottom: 5%;
+    border-bottom: 1px solid lightgray;
+}
+.home-section4_information span{
+    font-size: 20px;
+    color: #de3545;
+}
+.home-section4_information p{
+    font-size: 16px;
+}
+.home-section4-info1 .home-section4-info1-right h2::after {
+    border-bottom: 1px solid #de3545;
+    ;
+    bottom: -10px;
+    content: "";
+    height: 10px;
+    position: absolute;
+    width: 50px;
+    left: 8%;
+}
+@media only screen and (max-width: 800px){
+    .home-section4-info1 {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }.home-section4-info1 .home-section4-info1-left {
+        width: 95%;
+        padding: 2%;
+    }
+    .home-section4-info1 .home-section4-info1-left .grid2 span{
+        font-size: 70px;
+    }
+    .home-section4-info1 .home-section4-info1-left .grid2 span{
+        font-size: 30px;
+    }
+    .home-section4-info1 .home-section4-info1-left .gr{
+        margin-top: -10%;
+        margin-left: 1%;
+        background-color: white;
+        position: absolute;
+    }
+    
+    .home-section4-info1 .home-section4-info1-right {
+        width: 100%;
+        padding: 2%;
+    }
+    .home-section4-info1 .home-section4-info1-right h2 {
+        color: #de3545;
+        position: relative;
+        display: inline-block;
+    
+    }
+    
+    .home-section4-info1 .home-section4-info1-right .contacts {
+        margin-top: 30px;
+    
+    }
+    
+    .home-section4-info1 .home-section4-info1-right .contacts span {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    .home-section4-info1 .home-section4-info1-right .contacts1 {
+        margin-top: 30px;
+    
+    }
+    
+    .home-section4-info1 .home-section4-info1-right .contacts1 span {
+        font-size: small;
+    }
+    .home-section4_information span{
+        font-size: 16px;
+    }
+    .home-section4_information p{
+        font-size: 14px;
+    }
+}
